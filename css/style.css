@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-style: bold;
   font-size: 24px;
-  color: #999999;
+    color: #FA5858;
   line-height: 29px;
   padding: 10px;
 }
@@ -59,11 +59,11 @@ h2, h3, h4, h5 {
 
 .location-text {
   font-style: italic;
+  font-weight: bold;
   font-size: 14px;
-  color: #999999;
+  color: #000000;
   line-height: 16px;
-  float: right;
-
+  float: inherit;
 }
 
 p {
@@ -166,7 +166,10 @@ img {
 }
 
 span {
-  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FA5858;
+  padding: 10px;
 }
 
 #letsConnect {
